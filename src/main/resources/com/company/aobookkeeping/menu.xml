@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://jmix.io/schema/ui/menu">
+
+    <menu id="application" caption="msg://com.company.aobookkeeping/menu.application" insertBefore="administration">
+        <item screen="aobook_User.browse" caption="msg://com.company.aobookkeeping.screen.user/UserBrowse.caption"/>
+        <item screen="themeSettingsScreen" caption="msg://io.jmix.ui.app.themesettings/themeSettings.caption"/>
+        <item screen="aobook_Item.browse" caption="msg://com.company.aobookkeeping.screen.item/itemBrowse.menu"/>
+        <item screen="aobook_Price.browse" caption="msg://com.company.aobookkeeping.screen.price/priceBrowse.menu"/>
+        <item screen="aobook_Order.browse" caption="msg://com.company.aobookkeeping.screen.order/orderBrowse.menu"/>
+        <item screen="aobook_Resource.browse"
+              caption="msg://com.company.aobookkeeping.screen.resource/resourceBrowse.menu"/>
+    </menu>
+
+</menu-config>
